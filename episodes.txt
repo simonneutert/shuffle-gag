@@ -1,0 +1,442 @@
+GAG01: Vier Langobarden-Könige und ein Trinkbecher
+GAG02: Tatortschau mit Wiedererkennungswert
+GAG03: Fitness-Parcours für den Pharao
+GAG04: Wellingtons Rache, oder: Ein Bein für ein Königreich
+GAG05: Lernen Sie Geschichte!
+GAG06: Ada und die Pferdewetten
+GAG07: Geteilte Habsburger
+GAG08: Herr der Fliegen
+GAG09: Wer den englischen Parlamentsbrand auf dem Kerbholz hat
+GAG10: Craigslist in der Frühen Neuzeit
+GAG11: Von Kindern und Kegeln
+GAG12: Ein Kaiser, ein Gott, viele Todesfälle
+GAG13: Ein Spionagefall erschüttert die Habsburger Monarchie
+GAG14: Ein englisches Atlantis
+GAG15: Das Mailüfterl
+GAG16: Ton, Steine, Scherben oder wie Rom sich einen achten Hügel baute
+GAG17: Eine Urkunde, ein Zeltlager und eine Fälschung
+GAG18: Wie Russland den Bart verlor
+GAG19: Wenn ein Wissenschaftler an Drachen glaubt
+GAG20: Von Drachenknochen und Schildkrötenorakeln
+GAG21: Von der Erfindung der Einbauküche
+GAG22: Vom Goldjungen zum Staatsgefangenen
+GAG23: Ziemlich beste Feindschaft oder Die Anfänge der Bakteriologie
+GAG24: A French Connection, zum Scheitern verurteilt
+GAG25: Eine kaiserliche Bibliothek des Menschengeschlechts
+GAG26: Wie der Champagner zu seinen Bläschen kam
+GAG27: Die Rote Zora und ihre Vorfahren
+GAG28: Von Appenzellern, Bregenzern und einer Frau namens Guta
+GAG29: Ein Müller in den Fängen der Inquisition
+GAG30: Wie die Zeit zu unserer Zeit wurde
+GAG31: Blitzkrieg im Fußballstadion
+GAG32: Henry Gunther
+GAG33: Curta – eine Rechenmaschine und ihre Geschichte
+GAG34: Tee, Silber und Rauschmittel
+GAG35: Magia Posthuma – Vampirismus in Zeiten der Aufklärung
+GAG36: Eine sehr kurze Geschichte des Deodorants
+GAG37: Eine Reise um die Welt
+GAG38: Eine kurze Geschichte der Leibeigenschaft
+GAG39: Die Legion Erzengel Michael und Corneliu Codreanu
+GAG40: Über den Ursprung der Seidenstraße
+GAG41: Der Wiener Kreis und die Ermordung von Moritz Schlick
+GAG42: The City of Roses – Ein Rosengarten für Portland
+GAG43: Josef Eisemann, Seiltänzer in Wien
+GAG44: Eine kurze Geschichte der Süßigkeiten
+GAG45: Zwentendorf – Das sicherste Kernkraftwerk der Welt
+GAG46: Aufstieg und Fall der Republik Ragusa
+GAG47: Die Schwabenkinder und ihre Geschichte
+GAG48: George Ansons katastrophale Expedition – und ihre Folgen
+GAG49: Der »Dig Tree« und die erste Durchquerung Australiens
+GAG50: Ossian, ein altgälisches Epos wie keines davor
+GAG51: Eine kurze Geschichte der Rhythmologie und der Erforschung des Herzens
+GAG52: Die Geschichte der Annie Londonderry, "New Woman" und Fahrradweltreisende
+GAG53: Ein Verrat und ein langer Strich auf der Berliner Mauer
+GAG54: Die erste Rektorin einer deutschen Universität
+GAG55: Der letzte Kammerdiener des alten Kaisers
+GAG56: Piggly Wiggly und die Geschichte des Supermarkts
+GAG57: Von Grabtüchern, Knochen und wieder mal Venedig
+GAG58: Londoner Kutschenstreit
+GAG59: The Lost Colony
+GAG60: Wie das Essengehen erfunden wurde
+GAG61: Die niederländische "Tulpenmanie" (und warum sie gar nicht so schlimm war)
+GAG62: Eine kurze Geschichte der Rollschuhe und des Rollschuhfahrens
+GAG63: Konstantin und die Janitscharen
+GAG64: Paul Dirac und die Schönheit der Mathematik
+GAG65: Die Erfindung des diamantenen Verlobungsrings
+GAG66: Der Aufstieg Hamburgs – Fake it 'til you make it
+GAG67: Palladio, der erfolgreichste Architekt aller Zeiten
+GAG68: Eine ganz kleine Geschichte der Mikroskopie
+GAG69: Die Boston Melasse Katastrophe
+GAG70: Die Würzburger Lügensteine
+GAG71: Wie die Kartoffel nach Europa kam (und alles veränderte)
+GAG72: Phantominseln
+GAG73: Ludwig XIV. und seine pikante Operation
+GAG74: Die Bonnot-Bande und die Erfindung des Fluchtautos
+GAG75: Sobhuza II., König von Swaziland
+GAG76: Holdouts – Japans vergessene Soldaten
+GAG77: Der Augsburger Kalenderstreit: Folgen eines tatsächlichen Zeitsprungs
+GAG78: Eine kurze Geschichte der Sommerzeit
+GAG79: Das Rolandslied – über Heldentaten, Karl den Großen und Kreuzzugspropaganda
+GAG80: Eine Kirche auf dem Dachboden – Reformation und das Goldene Zeitalter in den Niederlanden
+GAG81: Eine kurze Geschichte des Essbestecks (aber ohne Löffel)
+GAG82: Victor Gruen und die Erfindung des Einkaufszentrums
+GAG83: 100 Jahre vor der Reformation – Jan Hus und die Hussitenkriege
+GAG84: Eine kleine Geschichte des Klimas und des Klimawandels
+GAG85: Ein Arm, ein Hai, ein Kriminalfall
+GAG86: Sabbatai Zwi – Der falsche Messias
+GAG87: Die Einführung von Freigeld und das Wunder von Wörgl
+GAG88: Von der Tanzwut und ihrer (wahrscheinlichen) Ursache
+GAG89: Seelenkonskription – die Anfänge der modernen Volkszählungen
+GAG90: Aufstieg und Fall des Roger Casement
+GAG91: Jan van Eyck – Der König unter den Malern und die Erfindung des Gemäldes
+GAG92: Die Geschichte der Typhoid Mary
+GAG93: Das Geheimnis des Lebens – Wie es zur Entdeckung der Doppelhelix kam
+GAG94: Wer zittert nicht vor den Mohocks?
+GAG95: Der Aufstieg des Jakob Fugger
+GAG96: Von der Entstehung des Croissants und anderen kulinarischen Mythen
+GAG97: Neutral-Moresnet – Ein Niemandsland mitten in Europa
+GAG98: Über Schoßhunde und gierige Affen
+GAG99: Ignaz Semmelweis und die Bekämpfung des Kindbettfiebers
+GAG100: Der Fall der „Mignonette“ und seine Folgen
+GAG101: Leon Theremin – Was die Anfänge der elektronischen Musik mit Überwachungstechniken zu tun haben
+GAG102: Ein Picknick, das die Welt verändert
+GAG103: Demoskopie – eine kurze Geschichte der (politischen) Meinungsforschung
+GAG104: Crécy - Chronik eines Versagens
+GAG105: Skanderbeg – Ein neuer Alexander und seine Bedeutung für die Geschichte Albaniens
+GAG106: Das Darién-Projekt und seine Folgen
+GAG107: Eine kurze Geschichte der Guillotine
+GAG108: Der Paderborner Kaffeelärm
+GAG109: Der Lotterieaufstand in Albanien
+GAG110: 110, 112, 999, etc.
+GAG111: Die Anfänge des Esperanto
+GAG112: Adele Spitzeder und die „Dachauer Bank“
+GAG113: Die Hep-Hep-Unruhen von 1819
+GAG114: Gerhard Zucker und sein Raketentraum
+GAG115: Eine kurze Geschichte der Hanse
+GAG116: Über Basken, Wale und ein Massaker auf Island
+GAG117: Tunix, Tuwat und die Entstehung des Chaos Computer Clubs
+GAG118: Ein Werwolf in Livland
+GAG119: Die NS-Thingbewegung – Thingstätten und Thingspiele
+GAG120: Die Rückkehr des Martin Guerre
+GAG121: Leopardenmorde und Leopardenmenschen
+GAG122: Die Belagerung von Masada
+GAG123: Christian Gottlieb Prieber – Aussteiger, Renegade und beinahe vergessener Utopist
+GAG124: Eine kleine Geschichte des Chinese Restaurant Syndroms
+GAG125: Republik Fredonia
+GAG126: Für immer im Eis – die Franklin Expedition
+GAG127: Struensee – Aufstieg und Fall eines Arztes, der (für kurze Zeit) zum dänischen Regenten wurde
+GAG128: Crash at Crush
+GAG129: Die Entdeckung der Dinosaurier
+GAG130: Alexander von Abonuteichos oder Wie ein Kult entsteht
+GAG131: Strathclyde – ein (fast) vergessenes Königreich
+GAG132: Gesche Gottfried, der Engel von Bremen
+GAG133: Alexios Komnenos und der Erste Kreuzzug
+GAG134: Eine kleine Geschichte des Kaiserschnitts anhand der Personen Jacob Nufer, James Barry und Margret Ann Bulkley
+GAG135: Adolf Loos
+GAG136: Der Jüdische Friedhof Währing
+GAG137: Die Französisch-Britische Union
+GAG138: Askari und die Kolonialgeschichte des Deutschen Reichs
+GAG139: Als Voltaire die Lotterie knackte und steinreich wurde
+GAG140: Eisbrecher für die Diplomatie – das Fußball-Länderspiel Sowjetunion gegen die BRD 1955
+GAG141: Die kurze Geschichte des Kokovorismus
+GAG142: Bertha Pappenheim – Gründerin des Jüdischen Frauenbundes und Sozialpionierin
+GAG143: Über Marsmenschen, Massenpanik und die Entstehung eines Mythos
+GAG144: Die Spanische Grippe
+GAG145: Barbara von Cilli oder Wie eine 100 mal wiederholte Lüge zur Wahrheit wird
+GAG146: Tripel-Allianz-Krieg
+GAG147: Das Fräulein vom Amt
+GAG148: Das Ende der Welt – Friedenskaiser und falsche Friedriche
+GAG149: Die Kabeljaukriege
+GAG150: Die Geschichte des Filmstudios Bendestorf
+GAG151: Manjirō, der erste Japaner in Amerika
+GAG152: Ernest Shackleton und die Endurance-Expedition
+GAG153: Wien-Tour mit Thomas Harbich (#WienFakt)
+GAG154: La Maupin, die duellierende Opernsängerin
+GAG155: Trofim Lyssenko und der Lyssenkoismus in der Sowjetunion
+GAG156: Charles Lindbergh, Alexis Carrel und die Mensch-Maschine
+GAG157: Salpeter – Aufstieg und Fall einer chemischen Verbindung
+GAG158: Al-Biruni und die erste Globalgeschichte
+GAG159: Thorsten Logge über Geschichte und Public History
+GAG160: Barbareskenstaaten und die europäischen Seemächte
+GAG161: Steamboat Arabia oder Der Schatz im Maisfeld
+GAG162: Novemberrevolution und die mehrfache Ausrufung der Republik
+GAG163: Vernepator Cur - der Hund im Hamsterrad
+GAG164: Eine kurze Geschichte des Alkoholkonsums
+GAG165: Pius IX. und die kurzlebige Römische Republik von 1849
+GAG166: Siegmund Bosel – die wechselvolle Geschichte eines Inflationskönigs
+GAG167: Mary Toft und die Hasen
+GAG168: Carl Laemmle und die Anfänge Hollywoods
+GAG169: Maos Großer Sprung und die chinesische Hungersnot von 1958–62
+GAG170: Auf Schatzsuche
+GAG171: Eine ganz kleine Geschichte der Nacht und des Schlafs
+GAG172: Eine kurze Geschichte der Armut in der Frühen Neuzeit
+GAG173: Der gefährliche Garten von Vaux-le-Vicomte
+GAG174: Harriet Tubman und die Underground Railroad
+GAG175: C.W. Field und das erste Kabel durch den Atlantik
+GAG176: Die Anfänge des Anarchismus und was Uhrmacher in der Schweiz damit zu tun haben
+GAG177: Robert Fortune, Botaniker und Teespion
+GAG178: Der Klosterskandal von Sant’Ambrogio
+GAG179: Maria Sibylla Merian – Naturforscherin und Künstlerin
+GAG180: Die Gelbe Flotte – ein Schiffskonvoi zwischen den Fronten
+GAG181: Von Gulasch, Pörkölt und Nationalgerichten
+GAG182: Der Zündholzkönig Ivar Kreuger
+GAG183: Agrippina die Jüngere, mächtigste Frau der frühen Kaiserzeit
+GAG184: Katharina Kepler – ein Hexenprozess in der Frühen Neuzeit
+GAG185: Kleindeutschland und die General Slocum Katastrophe
+GAG186: Die Redlichen Pioniere von Rochdale und eine kurze Geschichte der Genossenschaften
+GAG187: Die Wiener Weltausstellung von 1873
+GAG188: Martin Couney und die Inkubator-Ausstellungen
+GAG189: Die Schlacht bei Cannae
+GAG190: Die Assassinen
+GAG191: Aethelfled - Warrior Queen of Mercia
+GAG192: Tiere vor Gericht
+GAG193: Kanton Übrig – Wie Vorarlberg 1919 nicht der Schweiz beitrat
+GAG194: Die Natchez und der französische Kolonialismus in Nordamerika
+GAG195: Wie Gerta Stern auf der Flucht nach Panama ihren Mann aus dem KZ befreite
+GAG196: Wie der Panamakanal entstand
+GAG197: Das kurzlebige Königreich Finnland – und ein deutscher Adliger auf dem Thron
+GAG198: Olga von Kiew oder Mit den Spatzen kam der Tod
+GAG199: UC 71 und der U-Boot-Krieg im Ersten Weltkrieg
+GAG200: Eine Abrechnung
+GAG201: Eine kleine Geschichte des Speiseeises
+GAG202: Über Brunzdoktoren und Uroskopie – die Harnschau in der vormodernen Medizin
+GAG203: Bleiben oder gehen? Die Option in Südtirol 1939
+GAG204: Obaysch - das viktorianische Nilpferd
+GAG205: Die Befreiung von Schloss Itter
+GAG206: Von Verliesen & Drachen - ein 3W6 Crossover
+GAG207: William Stewart Halsted und die Chirurgie des 19. Jahrhunderts
+GAG208: Die kleinste Liga der Welt – Eishockey in der DDR
+GAG209: Cyriacus und die Erfindung der Archäologie
+GAG210: Der Kunstfälscher Han van Meegeren
+GAG211: Griechisches Feuer
+GAG212: Eine kleine Geschichte der Sternbilder
+GAG213: Tom Morris und eine kleine Geschichte des Golfsports
+GAG214: Hedy Lamarr – Hollywoodstar und Erfinderin
+GAG215: Wojtek, polnischer Soldatenbär
+GAG216: Napoleon II. – Vom König von Rom zum Herzog von Reichstadt
+GAG217: Wie Joseph Haydn den Kopf verlor
+GAG218: Die Pazzi-Verschwörung und der Aufstieg der Medici
+GAG219: Die Kotze-Affäre
+GAG220: Eine kurze Geschichte der Rohrpost
+GAG221: Hans Staden - ein Landsknecht bei den Menschenfressern
+GAG222: Das Voynich-Manuskript
+GAG223: Ramen und die Transformation Japans
+GAG224: Die Balmis-Expedition und eine kurze Geschichte der Pockenimpfung
+GAG225: Die Rundfahrt der Schlachtfelder
+GAG226: Der Untergang der Batavia
+GAG227: Die unsterbliche Henrietta Lacks
+GAG228: Berliner Blau – die Erfindung einer Farbe
+GAG229: Elisabeth Báthory, die (angebliche) Blutgräfin
+GAG230: Die Tendaguru-Expedition und das größte Dinosaurierskelett der Welt
+GAG231: Die Große Enttäuschung von 1844
+GAG232: Ein Mordfall und das umfangreichste Wörterbuch der englischen Sprache
+GAG233: Norton I., Kaiser der USA
+GAG234: Das bekannteste Parfüm der Welt und seine russische Vorgeschichte
+GAG235: Die Quarzkrise
+GAG236: Monopoly – Die Geschichte eines Brettspiels
+GAG237: Friedrich Anton Mesmer und der Animalische Magnetismus
+GAG238: Kurze Geschichten ausgestorbener Berufe
+GAG239: Die Zabern-Affäre
+GAG240: René Blondlot und die Entdeckung der N-Strahlen
+GAG241: General Königsmarck und der größte Kunstraub aller Zeiten
+GAG242: Eine kurze Geschichte der Olympischen Spiele (der Neuzeit)
+GAG243: Aeneas Coffey und eine kleine Geschichte des irischen Whiskeys
+GAG244: Die Mühle von Auriol und warum ihre Zerstörung eine Besetzung Frankreichs verhindert hat
+GAG245: Operation Paul Bunyan
+GAG246: John Law und die Mississippi-Blase
+GAG247: Der Emu Krieg von 1932
+GAG248: Der Venustransit von 1761/69 und das erste wissenschaftliche Großprojekt
+GAG249: Das Malireich und die Pilgerreise des vielleicht reichsten Mannes der Geschichte
+GAG250: Eine kurze Geschichte der Bluttransfusion
+GAG251: Der Schachtürke
+GAG252: Harvard Computers – Wie Astronominnen die Sterne neu sortierten
+GAG253: Martin Frobisher und die Steine
+GAG254: Eine kurze Geschichte des Kautschuks
+GAG255: Die 47 Ronin
+GAG256: Der Rütlischwur und die Anfänge der Schweizerischen Eidgenossenschaft
+GAG257: Alexander von Humboldt – Bugtales.FM Crossover
+GAG258: Der Andrews Raid - Eine Lokomotive auf Abwegen
+GAG259: Operation Mincemeat – Eine Geheimdienstaktion während des Zweiten Weltkriegs
+GAG260: Der Rattenfänger von Hameln
+GAG261: Adam Worth, der Napoleon des Verbrechens
+GAG262: Die Strawhat Riots
+GAG263: Lavoisier und die Entdeckung des Sauerstoffs
+Krankenbetten und Dauerbäder: Ein Geschichten-Extra mit Monika Ankele über Psychiatriegeschichte
+GAG264: Seondeok, erste Königin Koreas
+GAG265: Syphilis und die Tuskegee-Syphilis-Studie
+GAG266: Die Schlacht von Azincourt
+GAG267: Die Leichensynode von 897
+GAG268: Die Gebrüder Kellogg und die Erfindung des Frühstücks
+GAG269: Monika Ertl und ein Mord im Generalkonsulat
+GAG270: Eine thüringische Katastrophe
+GAG271: Caroline Neuber und der Hanswurststreit
+GAG272: Am Ende der Welt - Napoleons letzte Jahre im Exil
+GAG273: Der Alchemist und Goldmacher Franz Tausend
+GAG274: Das Petzvalobjektiv
+GAG275: Victor Lustig – Der Mann, der den Eiffelturm verkaufte
+GAG276: Aufruhr am Sankt-Scholastika-Tag
+GAG277: Der Aufstand und Putsch von Wilmington
+GAG278: Von göttlichen Robotern und feuerspeienden Bullen
+GAG279: Muskat und Manhattan
+GAG280: Der versunkene Kontinent Lemuria
+GAG281: Der Putschversuch vom 23. Februar 1981
+GAG282: Fredegund, Brunhild und der merowingische Bruderkrieg
+GAG283: Lola Montez
+GAG284: "There is death in the pot" - Friedrich Accum und die Lebensmittelfälscher
+GAG285: Joseph Petrosino und die Black Hand
+GAG286: Die verschwundenen Seefrauen Islands
+GAG287: Eine kurze Geschichte des Ballonfahrens und Fallschirmspringens
+GAG288: Der Senat, der über Leichen ging
+Extra: Dr. Emma Southon on murder in ancient Rome
+GAG289: Ein Kreuzzug, der einen ungeahnten Verlauf nahm
+GAG290: Der Angriff der Leichten Brigade
+GAG291: Ein erfolgreicher Kampf gegen die Kolonialisierung
+GAG292: Paul Grüninger
+GAG293: Als in Europa Menschen ausgestellt wurden
+GAG294: Erwin Kreuz
+GAG295: Die Verwandlung des Axolotls
+GAG296: Jeanne la Flamme und der bretonische Erbfolgekrieg
+GAG297: Die Revolutionärin und (fast) vergessene Pionierin der Frauenbewegung – Mathilde Franziska Anneke
+GAG298: Die Grüne Fee und der Absinthismus
+GAG299: Wie Basketball von James Naismith erfunden wurde
+GAG300: Der vorläufige Höhepunkt
+GAG301: Mary Seacole
+GAG302: Sealand und die Gründung einer Mikronation
+GAG303: Brunelleschi und die Kathedrale von Florenz
+GAG304: Der Falschgeldbetrug von Alves dos Reis
+GAG305: Der Piltdown-Mensch
+GAG306: Motoren, Krieg und Inflation – Aufstieg und Fall des Unternehmers Camillo Castiglioni
+GAG307: Njinga, Königin von Ndongo und Matamba
+GAG308: Eine kurze Geschichte des Urlaubs und Reisens
+GAG309: Die Bestie des Gévaudan
+GAG310: Arbeitskampf, Streik und das Leben der Gewerkschaftspionierin Paula Thiede
+GAG311: Der Imjin-Krieg
+GAG312: Der beste aller Ritter – das Leben von Guillaume le Maréchal
+GAG313: Die Geschwister Herschel
+GAG314: Eine kurze Geschichte der Cholera
+GAG315: Der Mehlkrieg von 1775
+GAG316: Die Shakespeare-Unruhen
+GAG317: Roger Tichborne – die wundersame Rückkehr des Sohnes
+GAG318: Der Nuklearunfall von Goiânia
+GAG319: Ashoka der Große
+GAG320: In 72 Tagen um die Welt – Journalistin Nellie Bly
+GAG321: Aufstieg und möglicher Fall der Banane
+GAG322: Portugal und der Seeweg nach Indien
+GAG323: Die Republik Ezo und das Ende des Shogunats
+GAG324: Mit dem Ballon zum Nordpol – Andrées Polarexpedition von 1897
+GAG325: Der Große Smog von 1952
+GAG326: Ausgestorbene und außergewöhnliche Berufe
+GAG327: Das große Geburtenrennen von Toronto
+GAG328: P. T. Barnum und die größte Show der Welt
+GAG329: Wie der Wolf zum Hund wurde
+GAG330: Zum Tode verurteilt – Catharina Linck alias Anastasius Lagrantinus Rosenstengel
+GAG331: Wie Tetris die Welt eroberte
+GAG332: Wie Gregor MacGregor ein Land verkaufte, das es gar nicht gab
+GAG333: Alexandria
+GAG334: Rachel Carson und der stumme Frühling
+GAG335: Aqua Tofana und die Giftmischerinnen des 17. Jahrhunderts
+GAG336: George Smith und die Entdeckung des Gilgamesch-Epos
+GAG337: Über Hummer, Kaviar und wie das Loch in den Donut kam
+GAG338: Eine neue Gesellschaft – Frühsozialist Robert Owen
+GAG339: Der Vocoder
+GAG340: Tauben, die Raketen steuern und Kybernetik
+GAG341: Der Exorzismus der Marthe Brossier
+GAG342: Das Stockholmer Blutbad
+GAG343: Phoebus und die geplante Obsoleszenz
+GAG344: Der Artischockenkrieg
+FGAG01: Atlantropa
+GAG345: Suffrajitsu
+GAG346: Die längste Hängebrücke der Welt
+GAG347: Adrianopel 378
+GAG348: Der Anschlag auf die Mosel
+GAG349: Konstantin Phaulkon im Königreich Ayutthaya
+GAG350: Der Bauernkrieg und die Revolution von 1525
+GAG351: Die Erfindung des Saxophons - Aufstieg und Fall des Adolphe Sax
+GAG352: Wallace und das Rennen um die Evolutionstheorie
+FGAG02: Mord auf Ex
+GAG353: Wallada
+GAG354: Die Halsbandaffäre
+GAG355: Der Englische Schweiß
+GAG356: Das DeLorean-Drama
+GAG357: Mary Kingsley
+FGAG03: Erwin Kreuz - ein Update
+GAG358: Philipp Reis und die Erfindung des Telefons
+GAG359: Eine kleine Geschichte des Schachspiels
+GAG360: Unglück am Matterhorn
+GAG361: Gustave Trouvé - der vergessene Erfinder
+FGAG04: Reinhard und das Reis-Telefon
+GAG362: Bayerns letzte Kurfürstin
+GAG363: Duke Kahanamoku
+GAG364: Mord und Madrigale – Carlo Gesualdo
+GAG365: The Ghost Army
+GAG366: Das Attentat von Anagni
+FGAG05: Duke in Paris, Jazzualdo und die Ghost Army
+GAG367: Untergang und Comeback der VASA
+GAG368: Wie das Jod ins Salz kam
+GAG369: Der Struwwelpeter
+GAG370: Der Kodex des Archimedes
+FGAG06: Egostory, Schwesterschiff und ein Freispruch für die Gletscher
+GAG371: Galla Placidia
+GAG372: Wie das Roulette eine Null verlor
+GAG373: Morocco und der Kluge Hans
+GAG374: Ludwik Fleck und das Fleckfieber
+FGAG07: Bibi & Tina, Casinos in Macau und noch mehr Schiffe in Maisfeldern
+GAG375: Sofia Kowalewskaja, "Königin der Wissenschaft"
+GAG376: Nagelmackers und der Orient-Express
+GAG377: Aufstieg und Fall des Templerordens
+GAG378: Ein langer Marsch durch Feindesland
+GAG379: Theodor von Neuhoff - König von Korsika
+GAG380: Das Maß aller Dinge
+FGAG08: In der Stratosphäre
+GAG381: Mau Piailug und die Besiedelung des Pazifiks
+GAG382: Der erste Film
+GAG383: Bletchley Park
+GAG384: Flaschenpost und die Erforschung der Ozeane
+GAG385: Delmonico's und der erste Starkoch der USA
+GAG386: Der Wettlauf zum Nordpol
+GAG387: Nurhaci und die Entstehung der Mandschu
+FGAG09: Theodor von Neuhoff, Verwirrungen im metrischen System und warum Bletchley Park den Krieg verkürzte
+GAG388: Marie Tussaud und die Wachsfiguren
+GAG389: Spieglein, Spieglein an der Wand
+GAG390: Kleopatra Selene und das Ende der Römischen Republik
+GAG391: Celia Cooney, die Banditin mit der Kurzhaarfrisur
+GAG392: Phosphor und der Streik der Streichholzarbeiterinnen
+GAG393: Die Schlacht von Zama
+GAG394: Die Verurteilung von Sacco und Vanzetti
+GAG395: Barbe-Nicole Ponsardin und die Begründung eines Champagnerimperiums
+GAG396: Helene Kottannerin und der Raub der Stephanskrone
+GAG397: Hy Brasil
+GAG398: Der Goldene Brief
+GAG399: John Brown und sein gescheiterter Sklavenaufstand
+GAG400: GAG X Anno Mundi – Anicia Juliana
+GAG401: Amerika und die Weltkarte von Waldseemüller
+GAG402: Die Vegetarian Society und die Begründung des modernen Vegetarismus
+GAG403: Maxentius – Der letzte Kaiser in Rom
+GAG404: Not Found
+GAG405: Bonifatius, Apostel der Deutschen
+GAG406: Die SMS Wolf und die Piraten des Kaisers
+GAG407: Das katastrophale Ende einer Kolonie
+GAG408: Das kurze und tragische Leben des Évariste Galois
+GAG409: Pferdefotos und ein Mord
+FGAG10: Die Rückkehr, eine Ankündigung und ein Interview
+GAG410: Lady Six Sky und eine kurze Geschichte der Maya
+GAG411: Der Untergang der Thomas W. Lawson
+GAG412: Samuel Pepys und das außergewöhnlichste Tagebuch des 17. Jahrhunderts
+GAG413: Paracelsus – Arzt und Alchemist
+GAG414: Ibn Fadlān und die Reise zur Wolga
+GAG415: Polarpionier Fridtjof Nansen
+GAG416: Wie das Münzgeld entstand
+GAG417: Auf der Suche nach den Quellen des Nils
+FGAG11: Samuel Pepys, Lady Six Sky und Daniel singt
+GAG418: Das älteste Gewürz der Welt
+GAG419: Therese von Thurn und Taxis und das Ende der Reichspost
+GAG420: Harry Anslinger und der erste "War on Drugs"
+GAG421: Playfair und die Erfindung des Balkendiagramms
+GAG422: Eine kleine Geschichte der Parapsychologie
+GAG423: Der Sohn Gottes Hong Xiuquan und sein Aufstand gegen das imperiale China
+GAG424: Die Erfindung der Briefmarke
+GAG425: Shampooing und die vier Leben des Dean Mahomet
+GAG426: Die erste Regisseurin – Alice Guy
+GAG247: Das große Erdbeben von Lissabon
+GAG428: Der Fälscher Konstantinos Simonides
+GAG429: Der Eimerkrieg
