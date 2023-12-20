@@ -17,14 +17,12 @@ Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.
 - [Motivation](#motivation)
 - [Ich will nur shufflen - nichts coden! 🚀](#ich-will-nur-shufflen---nichts-coden-)
 - [Shortcut erstellen](#shortcut-erstellen)
-- [Wie füge ich eine neue Episode von Apple Podcasts hinzu?](#wie-füge-ich-eine-neue-episode-von-apple-podcasts-hinzu)
-- [Wie füge ich eine neue Episode von Spotify hinzu?](#wie-füge-ich-eine-neue-episode-von-spotify-hinzu)
+- [Wie füge ich eine neue Episode hinzu?](#wie-füge-ich-eine-neue-episode-hinzu)
 - [Contributions / Mitmachen](#contributions--mitmachen)
 - [An die Podcasters](#an-die-podcasters)
 - [Meine persönlichen Highlight Episoden](#meine-persönlichen-highlight-episoden)
 - [FAQ](#faq)
   - [Wenn alles über deinen Server läuft, dann DSGVO und so, oder?](#wenn-alles-über-deinen-server-läuft-dann-dsgvo-und-so-oder)
-  - [Wie geht das für Spotify?](#wie-geht-das-für-spotify)
   - [Kann ich mitmachen?](#kann-ich-mitmachen)
   - [Kann ich dir einen Kaffee spendieren?](#kann-ich-dir-einen-kaffee-spendieren)
 
@@ -49,8 +47,7 @@ Dieses Repository soll anderen Podcast-Hörern, die Apple Podcasts nutzen, die F
 Du musst nicht coden können, sondern darfst gerne meinen Server nutzen.  
 Dazu musst du nur den Shortcut aufsetzen und darin die von mir zur Verfügung gestellte URL einsetzen:  
 
-- `https://gag.trojanischeresel.de/data.json` Apple Podcasts
-- `https://gag.trojanischeresel.de/data-spotify.json` Spotify
+- `https://gag.trojanischeresel.de/data.json`
 
 Wie du den [Shortcut erstellst](#shortcut-erstellen) 👈
 
@@ -61,8 +58,7 @@ Bevor 1000 Wörter folgen, hier der Screenshots des Shortcuts:
 ![Screenshot des Shortcuts](./docs/screenshot.jpeg)
 
 1. Inhalte von URL abrufen  
-    ➡️ `https://gag.trojanischeresel.de/data.json` für Apple Podcasts  
-    ➡️ `https://gag.trojanischeresel.de/data-spotify.json` für Spotify  
+    ➡️ `https://gag.trojanischeresel.de/data.json` 
     ➡️ oder deine eigene URL zur JSON Datei
 2. Objekt aus Liste abrufen  
     ➡️ "Zufälliges Objekt" von "Inhalt der URL"
@@ -71,7 +67,7 @@ Bevor 1000 Wörter folgen, hier der Screenshots des Shortcuts:
 4. Objekt aus Liste abrufen  
     ➡️ "Zufälliges Objekt" von "Wörterbuch"
 5. Wörterbuchwert abrufen  
-    ➡️ "Wert" für `url` in "Objekt aus Liste" abrufen
+    ➡️ "Wert" für `url_apple_podcasts` bzw. `url_spotify` in "Objekt aus Liste" abrufen
 6. URL öffnen  
     ➡️ "Wörterbuchwert" öffnen
 
@@ -84,124 +80,26 @@ Mach das am besten an deinem iPhone wegen der "Übergabefunktion" in der Shortcu
 8. Wiedergabe übergeben (nur iPhone)  
     ➡️ von "iPhone" an "Homepod"
 
-## Wie füge ich eine neue Episode von Apple Podcasts hinzu?
+## Wie füge ich eine neue Episode hinzu?
 
-Es gibt mehrere Wege. Ich habe sie nach zunehmendem Aufwand sortiert.
-
-<details><summary>Toggle me! 🥳</summary>
+Bitte ergänze immer die neueste Episode für Apple Podcasts und Spotify.
 
 ### The CI/CD way (empfohlen)<!-- omit in toc -->
 
-Jeden Tag wird automatisch die neueste Episode aus dem iTunes Store gezogen und in die `newest-episode.json` geschrieben.
+Jeden Tag werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben.
 
-https://github.com/simonneutert/shuffle-gag/blob/main/newest-episode.json
+- https://github.com/simonneutert/shuffle-gag/blob/main/newest-episode-apple-podcasts.json
+- https://github.com/simonneutert/shuffle-gag/blob/main/newest-episode-spotify.json
 
 Man muss sie dann nur noch in die `data.json` manuell einfügen.
-
-### Easy way<!-- omit in toc -->
-
-Besuche den neuesten Podcast in der Podcast App und teile die Episode per "Link kopieren".  
-Anschliessend legst du ein zusätzliches JSON Objekt in der Datei `data.json` an.
-
-Das Zielschema erkennst du dann schon an den anderen Objekten. Achte bei der URL auf das "kurze" Format!
-
-Dieser Teil der URL ist fix: `https://podcasts.apple.com/de/podcast/id1044844618?i=`  
-Ergänze ihn um die ID der Episode, die du kopiert hast (im Beispiel: `1000637567530`).
-
-Das geht übrigens super easy wenn du während du in deinem Browser hier auf der Seite bist und das liest, einfach die Taste "." (PUNKT) drückst. Dann öffnet sich die Datei in deinem Editor und du kannst sie bearbeiten. 🤯
-
-```json
-[
-    // ... shortened for brevity
-    {
-      "tag": "gag428",
-      "title": "Der Fälscher Konstantinos Simonides",
-      "url": "https://podcasts.apple.com/de/podcast/id1044844618?i=1000637567530"
-    }
-]
-```
-
-### Moby Docker's way 🐳<!-- omit in toc -->
-
-Du kannst auch Docker nutzen, wenn du diese Repo geklont hast:
-
-```bash
-# das shell script ist absichtlich nicht ausführbar, daher:
-docker run -ti --rm ubuntu bash -c "$(cat ./bin/get-newest-episode.sh)"
-```
-
-### The Hard Way 🤓<!-- omit in toc -->
-
-Richtig nerdig wird es, wenn du die Daten selbst aus dem iTunes Store ziehst. Und durch CLI Tools jagst.
-
-Am besten geht das an einen Mac oder Linux (also auch unter Windows dann mit WSL).
-
-Du musst dazu folgende Abhängigkeiten installieren:
-
-- [httpie](https://httpie.org/) //  `brew install httpie`
-- [jq](https://stedolan.github.io/jq/) // `brew install jq`
-
-#### 1. Lade die neusten 10 Episoden aus dem iTunes Store<!-- omit in toc -->
-
-```bash
-https "https://itunes.apple.com/lookup?id=1044844618&country=DE&media=podcast&entity=podcastEpisode&limit=10" > /tmp/itunes.json
-```
-
-#### 2. Daten aufbereiten<!-- omit in toc -->
-
-Mittels `jq` kannst du die Daten aufbereiten.
-
-```bash
-cat /tmp/itunes.json | jq ".results[1] | {tag: ((.trackName|split(\":\")[0])|ascii_downcase), title: (.trackName|split(\": \")[1]), url: ([\"https://podcasts.apple.com/de/podcast/id1044844618?i=\",((.trackViewUrl|split(\"i=\")[1])|split(\"&\")[0])]|join(\"\"))}"
-```
-
-`jq ".results[1]` ist das zweite Element in der Liste. Das erste ist der Podcast selbst 🤷‍♂️  
-wenn du also eine ältere Episode brauchst, dann musst du das `1` durch eine h¨here Zahl ersetzen.
-
-Naja, auf jeden Fall, wenn du das erledigt hast, kommt ungefähr sowas raus:
-
-```json
-{
-  "tag": "gag429",
-  "title": "Der Eimerkrieg",
-  "url": "https://podcasts.apple.com/de/podcast/id1044844618?i=1000638321858"
-}
-```
-
-und das widerrum gehört dann ans Ende der `data.json`.
-
-```json
-[
-    // ... shortened for brevity
-    {
-      "tag": "gag428",
-      "title": "Der Fälscher Konstantinos Simonides",
-      "url": "https://podcasts.apple.com/de/podcast/id1044844618?i=1000637567530"
-    },
-    {
-      "tag": "gag429",
-      "title": "Der Eimerkrieg",
-      "url": "https://podcasts.apple.com/de/podcast/id1044844618?i=1000638321858"
-    }
-]
-```
-
-</details>
-
-## Wie füge ich eine neue Episode von Spotify hinzu?
-
-Das geht leider (noch?) nicht automatisiert.  
-Aber du kannst die Daten manuell in der Datei `data-spotify.json` ergänzen, das von mir eingesetzte Schema sollte hoffentlich selbsterklärend sein. 🤞
 
 ## Contributions / Mitmachen
 
 Ich fände es natürlich irre gut, wenn du mir hilfst die Liste zu pflegen. 
 
-**Super geeky** wäre es, wenn wir **alles** in eine GitHub Action packen, die den Code per trigger updaten kann. Aber das ist nur ein Gedanke und vermutlich aufwendiger als es jede Woche schnell selbst zu erledigen ([Source](https://xkcd.com/1205/)). Schliesslich kann man von jeder Maschine mit Internetzugang auf diese Seite surfen und dann die Taste "." / "PUNKT" auf der Tastatur drücken und die Daten schnell ergänzen.
+> **Super geeky** wäre es, wenn wir **alles** in eine GitHub Action packen, die den Code per trigger updaten kann. Aber das ist nur ein Gedanke und vermutlich aufwendiger als es jede Woche schnell selbst zu erledigen ([Source](https://xkcd.com/1205/)). Schliesslich kann man von jeder Maschine mit Internetzugang auf diese Seite surfen und dann die Taste "." / "PUNKT" auf der Tastatur drücken und die Daten schnell ergänzen.
 
-Oder wir machen es in einem Google Sheet. Oder wir pflegen die Daten in einer csv file und konvertieren sie dann automatisiert in ein JSON Objekt. Und packen das dann auf einen NGINX Server. Da kann man sich so richtig ausnerden.
-
-Oder ... oder ... oder ...
+☝️ ich bin den Weg am Ende schon fast bis zu Ende gegangen 🤓😬
 
 **Danke** für deine Hilfe! ❤️ UND/ODER viel Spaß beim Hören der Episoden. Buch das Abo, die Jungs machen einen tollen Job! 💰
 
@@ -266,26 +164,6 @@ Na, aber, aber, ich bitte dich.
 Ich will weder von dir irgendwelche Daten haben, noch gebe ich meine Daten gerne her.  
 Also speichere ich selbst aktiv keine Daten/IPs und Cookies bekommst du von mir auch keine!  
 Das hast du davon!
-
-### Wie geht das für Spotify?
-
-Es ist das gleiche Prinzip. Du musst nur die URL anpassen.
-
-Natürlich musst du den Auth Flow noch machen und und und ...
-
-Dann ist es am Ende aber nur noch:
-
-`http GET 'https://api.spotify.com/v1/shows/0cPsvdqTreF6sKg6VwSrMl/episodes?market=DE&limit=50&offset=0' \
-  Authorization:'Bearer this-is-mysupersecretbearertoken'`
-
-Anstatt `gag.trojanischeresel.de/data.json`  
-musst du in deinem Kurzbefehl  
-`gag.trojanischeresel.de/data-spotify.json`  
-verwenden.
-
-🚨 Hier kann ich leider nicht ohne etwas Aufwand automatisieren (aber ich denke es ginge auch).  🚨  
-
-Hilfe ist willkommen. ❤️
 
 ### Kann ich mitmachen?
 
