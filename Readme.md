@@ -7,6 +7,8 @@ Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.
 
 🦊 Schlaue Füchse setzen sich ein Lesezeichen zu dieser URL, um bei Änderungen an der API bzw. der Datenstruktur, oder überhaupt wenn was nicht geht, schnell Hilfe zu bekommen 🐒
 
+🙏 SCHAU AUCH MAL IN DIE [ROADMAP](Roadmap.md)<!-- omit in toc -->
+
 > PS: Die Bonus-Episoden sind in meinem Shuffle für Apple Podcast nicht enthalten.  
 > Aber es sollte ein Leichtes sein, sie zu ergänzen.  
 > Ich nehme gerne [Pull Requests](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) an. ❤️
