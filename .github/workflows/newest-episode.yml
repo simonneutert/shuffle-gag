@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 11 * * 3"
     - cron: "0 18 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,6 +25,19 @@ jobs:
           sudo apt-get -qq install -y jq
           https "https://itunes.apple.com/lookup?id=1044844618&country=DE&media=podcast&entity=podcastEpisode&limit=10" > /tmp/itunes.json
           cat /tmp/itunes.json | jq ".results[1] | {tag: ((.trackName|split(\":\")[0])|ascii_downcase), title: (.trackName|split(\": \")[1]), url: ([\"https://podcasts.apple.com/de/podcast/id1044844618?i=\",((.trackViewUrl|split(\"i=\")[1])|split(\"&\")[0])]|join(\"\"))}" > newest-episode.json
+
+      - name: Setup Babashka
+        uses: turtlequeue/setup-babashka@v1.5.0
+        with:
+          babashka-version: 1.3.186
+
+      - name: Get newest episode from Spotify
+        env: # Or as an environment variable
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          bb -f get-episode-spotify.clj
+          cat newest-episode-spotify.json
 
       # Commit and push all changed files.
       - name: GIT Commit Add Episode
