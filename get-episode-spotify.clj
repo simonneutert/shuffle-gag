@@ -47,7 +47,7 @@
         title (last (clojure.string/split name #": "))]
     {:title title
      :tag tag
-     :url url}))
+     :url_spotify url}))
 
 (let [json-content (-> (get-latest-episode)
                        (format-episode)
