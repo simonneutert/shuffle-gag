@@ -2,7 +2,12 @@
 
 ## next
 
-- [ ] die datenaggregation vollständig automatisieren
+- [ ] idee hier eintragen
+
+## 2023-12-28
+
+- [x] alle GAG, FGAG und Extras in `data.json` eintragen
+- [x] die datenaggregation vollständig automatisieren
 
 ## 2023-12-20
 

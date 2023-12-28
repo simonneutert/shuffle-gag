@@ -24,14 +24,18 @@
 
 (defn get-episodes
   [token]
-  (let [response (http/get base-url {:headers {"Authorization" (str "Bearer " token)
-                                               "Accept" "application/json"}
-                                     :query-params {"market" "DE"
-                                                    "limit" "10"
-                                                    "offset" "0"}})]
+  (let [headers {"Authorization" (str "Bearer " token)
+                 "Accept" "application/json"}
+        query-params {"market" "DE"
+                      "limit" "10"
+                      "offset" "0"}
+        response (http/get base-url {:headers headers :query-params query-params})]
     (json/parse-string (:body response) true)))
 
 (defn get-latest-episode
+  "Get the latest episode from the Spotify API.
+   Auths with client credentials flow, then extracts the access token from the response.
+   Then gets the episodes from the API and returns the first (newest) one."
   []
   (->> (get-token-auth)
        :access_token
@@ -40,6 +44,7 @@
        first))
 
 (defn format-episode
+  "Formats the episode to the desired edn/JSON format."
   [episode]
   (let [name (:name episode)
         url (:spotify (:external_urls episode))
