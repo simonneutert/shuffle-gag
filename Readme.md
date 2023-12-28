@@ -9,10 +9,6 @@ Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.
 
 🙏 SCHAU AUCH MAL IN DIE [ROADMAP](Roadmap.md)<!-- omit in toc -->
 
-> PS: Die Bonus-Episoden sind in meinem Shuffle für Apple Podcast nicht enthalten.  
-> Aber es sollte ein Leichtes sein, sie zu ergänzen.  
-> Ich nehme gerne [Pull Requests](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) an. ❤️
-
 - [Was ist das hier?](#was-ist-das-hier)
 - [Motivation](#motivation)
 - [Ich will nur shufflen - nichts coden! 🚀](#ich-will-nur-shufflen---nichts-coden-)
@@ -82,26 +78,25 @@ Mach das am besten an deinem iPhone wegen der "Übergabefunktion" in der Shortcu
 
 ## Wie füge ich eine neue Episode hinzu?
 
-Bitte ergänze immer die neueste Episode für Apple Podcasts und Spotify.
+Bitte ergänze immer die neueste Episode für Apple Podcasts und Spotify,  
+man muss sie dann nur noch in die `data.json` manuell einfügen.
 
-### The CI/CD way (empfohlen)<!-- omit in toc -->
+### Automatisierte Ergänzung<!-- omit in toc -->
 
-Jeden Tag werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben.
-
-- https://github.com/simonneutert/shuffle-gag/blob/main/newest-episode-apple-podcasts.json
-- https://github.com/simonneutert/shuffle-gag/blob/main/newest-episode-spotify.json
-
-Man muss sie dann nur noch in die `data.json` manuell einfügen.
+Jeden Tag werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben. Abschließend wird die `data.json` aktualisiert.
 
 ## Contributions / Mitmachen
 
-Ich fände es natürlich irre gut, wenn du mir hilfst die Liste zu pflegen. 
+Ich fände es natürlich irre gut, wenn du mir hilfst die Liste zu pflegen.  
+Oder den Code verbessert, der die Daten aggregiert.  
+Er tut es, aber es ist nicht elegant (oder vertestet).
 
 > **Super geeky** wäre es, wenn wir **alles** in eine GitHub Action packen, die den Code per trigger updaten kann. Aber das ist nur ein Gedanke und vermutlich aufwendiger als es jede Woche schnell selbst zu erledigen ([Source](https://xkcd.com/1205/)). Schliesslich kann man von jeder Maschine mit Internetzugang auf diese Seite surfen und dann die Taste "." / "PUNKT" auf der Tastatur drücken und die Daten schnell ergänzen.
 
-☝️ ich bin den Weg am Ende schon fast bis zu Ende gegangen 🤓😬
+☝️ ich bin den Weg dann schliesslich bis zu Ende gegangen und es ist nun vollständig automatisiert 🤓😬
 
-**Danke** für deine Hilfe! ❤️ UND/ODER viel Spaß beim Hören der Episoden. Buch das Abo, die Jungs machen einen tollen Job! 💰
+Viel Spaß beim Hören der Episoden.  
+Buch das Abo, die Jungs machen einen tollen Job! 💰
 
 ## An die Podcasters
 
