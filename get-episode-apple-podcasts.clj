@@ -28,10 +28,11 @@
   "Get the latest episode from the Apple Podcasts API.
    The first result is the show itself."
   []
-  (->> (get-episodes)
-       :results
-       (drop 1)
-       first))
+  (let [episodes (->> (get-episodes)
+                      :results
+                      (drop 1))]
+    (clojure.pprint/pprint (take 3 episodes))
+    (first episodes)))
 
 (defn tag-from-name
   "Builds the tag from the episode name, e.g. 'gag420' from 'GAG420: Die Geschichte von der Geschichte'."

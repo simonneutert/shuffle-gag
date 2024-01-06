@@ -37,11 +37,12 @@
    Auths with client credentials flow, then extracts the access token from the response.
    Then gets the episodes from the API and returns the first (newest) one."
   []
-  (->> (get-token-auth)
-       :access_token
-       (get-episodes)
-       :items
-       first))
+  (let [episodes (->> (get-token-auth)
+                      :access_token
+                      (get-episodes)
+                      :items)]
+    (clojure.pprint/pprint (take 3 episodes))
+    (first episodes)))
 
 (defn format-episode
   "Formats the episode to the desired edn/JSON format."
