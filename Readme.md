@@ -24,7 +24,7 @@ Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.
 
 ## Was ist das hier?
 
-1. eine einfache Liste aller Episoden im JSON Format (aktuell ohne Bonus-Episoden und FGAGs)
+1. eine einfache Liste aller Episoden im JSON Format (inkl. Bonus-Episoden und FGAGs)
 2. eine Dockerfile um einen Webserver mit den Daten zu hosten
 
 Und das macht zusammen: Ein simpler NGINX der JSON ausgibt. Was dir erlaubt per Apple Shortcut/Kurzbefehle eine zufällige Episode vom Podcast '[Geschichten aus der Geschichte](https://www.geschichte.fm)' zu hören.
