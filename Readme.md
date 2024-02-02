@@ -36,7 +36,7 @@ Und. Es. Nervt. Unendlich!
 
 Beim Zubettgehen und/oder Einschlafen läuft eine Folge "[Geschichten aus der Geschichte](https://www.geschichte.fm)". Jeden Mittwoch die neueste Folge. Spätestens samstags ist man dann damit durch. 🙈 Nun habe ich zwar meine absoluten Lieblingsfolgen und Evergreens ([meine 😍Episoden](#meine-persönlichen-highlight-episoden)), aber nur eine zufällige Wiedergabe bringt eben zwangsläufig auch etwas frischen Wind rein.
 
-Dieses Repository soll anderen Podcast-Hörern, die Apple Podcasts nutzen, die Freude einer Zufallswiedergabe bieten. Vor allem mithilfe der unten beschriebenen Anleitung für die **Kurzbefehle App** auf aktuellen iPhones. 👇
+Dieses Repository soll anderen Podcast-Hörern, die iPhones nutzen, die Freuden einer Zufallswiedergabe bieten. Mit Hilfe der unten beschriebenen Anleitung für die **Apple Kurzbefehle App**. 👇
 
 ## Ich will nur shufflen - nichts coden! 🚀
 
