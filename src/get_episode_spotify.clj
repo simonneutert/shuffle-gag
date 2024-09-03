@@ -1,5 +1,6 @@
-(require '[babashka.http-client :as http]
-         '[cheshire.core :as json])
+(ns get-episode-spotify
+  (:require [babashka.http-client :as http]
+            [cheshire.core :as json]))
 
 (def geschichten-aus-der-geschichte-show-id
   "0cPsvdqTreF6sKg6VwSrMl")

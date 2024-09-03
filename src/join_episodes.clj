@@ -1,4 +1,5 @@
-(require '[cheshire.core :as json])
+(ns join-episodes
+  (:require [cheshire.core :as json]))
 
 (def all
   (slurp "data.json"))

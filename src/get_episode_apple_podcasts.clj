@@ -1,5 +1,8 @@
-(require '[babashka.http-client :as http]
-         '[cheshire.core :as json])
+(ns get-episode-apple-podcasts
+  (:require [babashka.http-client :as http]
+            [cheshire.core :as json]
+            [clojure.string :as clojure.string]
+            [clojure.pprint :as pprint]))
 
 (def target-file
   "newest-episode-apple-podcasts.json")
