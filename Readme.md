@@ -3,6 +3,9 @@
 **Zufällige Episode vom Podcast 'Geschichten aus der Geschichte'** für Nutzer der Apple Podcast App und Spotify!  
 Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.  
 
+Viel Spaß beim Hören der Episoden.  
+Buch das Abo, die Jungs machen einen tollen Job! 💰
+
 [Kurzbefehl App](https://apps.apple.com/de/app/kurzbefehle/id915249334)
 
 🦊 Schlaue Füchse setzen sich ein Lesezeichen zu dieser URL, um bei Änderungen an der API bzw. der Datenstruktur, oder überhaupt wenn was nicht geht, schnell Hilfe zu bekommen 🐒
@@ -13,7 +16,6 @@ Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.
 - [Motivation](#motivation)
 - [Ich will nur shufflen - nichts coden! 🚀](#ich-will-nur-shufflen---nichts-coden-)
 - [Shortcut erstellen](#shortcut-erstellen)
-- [Wie füge ich eine neue Episode hinzu?](#wie-füge-ich-eine-neue-episode-hinzu)
 - [Contributions / Mitmachen](#contributions--mitmachen)
 - [An die Podcasters](#an-die-podcasters)
 - [Meine persönlichen Highlight Episoden](#meine-persönlichen-highlight-episoden)
@@ -76,27 +78,15 @@ Mach das am besten an deinem iPhone wegen der "Übergabefunktion" in der Shortcu
 8. Wiedergabe übergeben (nur iPhone)  
     ➡️ von "iPhone" an "Homepod"
 
-## Wie füge ich eine neue Episode hinzu?
-
-Bitte ergänze immer die neueste Episode für Apple Podcasts und Spotify,  
-man muss sie dann nur noch in die `data.json` manuell einfügen.
-
 ### Automatisierte Ergänzung<!-- omit in toc -->
 
-Jeden Tag werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben. Abschließend wird die `data.json` aktualisiert.
+Automatisiert werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben. Abschließend wird die `data.json` aktualisiert.
 
 ## Contributions / Mitmachen
 
 Ich fände es natürlich irre gut, wenn du mir hilfst die Liste zu pflegen.  
 Oder den Code verbessert, der die Daten aggregiert.  
-Er tut es, aber es ist nicht elegant (oder vertestet).
-
-> **Super geeky** wäre es, wenn wir **alles** in eine GitHub Action packen, die den Code per trigger updaten kann. Aber das ist nur ein Gedanke und vermutlich aufwendiger als es jede Woche schnell selbst zu erledigen ([Source](https://xkcd.com/1205/)). Schliesslich kann man von jeder Maschine mit Internetzugang auf diese Seite surfen und dann die Taste "." / "PUNKT" auf der Tastatur drücken und die Daten schnell ergänzen.
-
-☝️ ich bin den Weg dann schliesslich bis zu Ende gegangen und es ist nun vollständig automatisiert 🤓😬
-
-Viel Spaß beim Hören der Episoden.  
-Buch das Abo, die Jungs machen einen tollen Job! 💰
+Er tut es, aber es ist nicht elegant (oder vertestet 😅).
 
 ## An die Podcasters
 
