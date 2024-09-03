@@ -44,6 +44,17 @@
     (clojure.pprint/pprint (take 3 episodes))
     (first episodes)))
 
+(defn generate-unique-tag [episode]
+  (let [title (:title episode)
+        title-parts (clojure.string/split title #" ")
+        title-first-letters (mapv #(get % 0) title-parts)]
+    (clojure.string/join "" title-first-letters)))
+
+(defn handle-special-episode [episode tagname]
+  (if (= (:tag episode) tagname)
+    (assoc episode :tag (str tagname "-" (generate-unique-tag episode)))
+    episode))
+
 (defn format-episode
   "Formats the episode to the desired edn/JSON format."
   [episode]
@@ -57,5 +68,6 @@
 
 (let [json-content (-> (get-latest-episode)
                        (format-episode)
+                       (handle-special-episode "extra")
                        (json/generate-string {:pretty true}))]
   (spit "newest-episode-spotify.json" json-content))
