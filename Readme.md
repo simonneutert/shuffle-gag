@@ -164,3 +164,11 @@ Wenn du selbst keine Ideen hast, hier ein paar Vorschläge:
 - https://github.com/pi-hole/pi-hole
 - https://letsencrypt.org
 - https://www.mozilla.org
+
+# Test
+
+Ein paar kleine, erste Tests gibt es nun auch.
+
+```bash
+$ bb test:bb
+```
