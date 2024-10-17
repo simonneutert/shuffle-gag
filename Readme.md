@@ -10,18 +10,6 @@ Buch das Abo, die Jungs machen einen tollen Job! 💰
 
 ---
 
-- [Was ist das hier?](#was-ist-das-hier)
-- [Motivation](#motivation)
-- [Ich will nur shufflen - nichts coden! 🚀](#ich-will-nur-shufflen---nichts-coden-)
-- [Shortcut erstellen](#shortcut-erstellen)
-- [Contributions / Mitmachen](#contributions--mitmachen)
-- [An die Podcasters](#an-die-podcasters)
-- [Meine persönlichen Highlight Episoden](#meine-persönlichen-highlight-episoden)
-- [FAQ](#faq)
-  - [Wenn alles über deinen Server läuft, dann DSGVO und so, oder?](#wenn-alles-über-deinen-server-läuft-dann-dsgvo-und-so-oder)
-  - [Kann ich mitmachen?](#kann-ich-mitmachen)
-  - [Kann ich dir einen Kaffee spendieren?](#kann-ich-dir-einen-kaffee-spendieren)
-
 ## Was ist das hier?
 
 1. eine einfache Liste aller Episoden im JSON Format (inkl. Bonus-Episoden und FGAGs)
