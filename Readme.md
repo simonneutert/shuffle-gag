@@ -8,9 +8,7 @@ Buch das Abo, die Jungs machen einen tollen Job! 💰
 
 [Kurzbefehl App](https://apps.apple.com/de/app/kurzbefehle/id915249334)
 
-🦊 Schlaue Füchse setzen sich ein Lesezeichen zu dieser URL, um bei Änderungen an der API bzw. der Datenstruktur, oder überhaupt wenn was nicht geht, schnell Hilfe zu bekommen 🐒
-
-🙏 SCHAU AUCH MAL IN DIE [ROADMAP](Roadmap.md)<!-- omit in toc -->
+---
 
 - [Was ist das hier?](#was-ist-das-hier)
 - [Motivation](#motivation)
@@ -36,16 +34,16 @@ Und das macht zusammen: Ein simpler NGINX der JSON ausgibt. Was dir erlaubt per 
 Nutzer der **Podcast-App** auf dem **iPhone** haben vermutlich festgestellt, dass es ~~zumindest mir~~ unmöglich ist, sich eine zufällige Episode eines Podcasts ausgeben zu lassen.  
 Und. Es. Nervt. Unendlich!  
 
-Beim Zubettgehen und/oder Einschlafen läuft eine Folge "[Geschichten aus der Geschichte](https://www.geschichte.fm)". Jeden Mittwoch die neueste Folge. Spätestens samstags ist man dann damit durch. 🙈 Nun habe ich zwar meine absoluten Lieblingsfolgen und Evergreens ([meine 😍Episoden](#meine-persönlichen-highlight-episoden)), aber nur eine zufällige Wiedergabe bringt eben zwangsläufig auch etwas frischen Wind rein.
+Beim Zubettgehen und/oder Einschlafen läuft eine Folge "[Geschichten aus der Geschichte](https://www.geschichte.fm)". Jeden Mittwoch die neueste Folge. Spätestens samstags ist man dann damit durch. 🙈 Nun habe ich zwar meine absoluten Lieblingsfolgen und Evergreens ([meine Lieblings-Episoden](#meine-persönlichen-highlight-episoden)), aber nur eine zufällige Wiedergabe bringt eben zwangsläufig auch etwas frischen Wind rein.
 
 Dieses Repository soll anderen Podcast-Hörern, die iPhones nutzen, die Freuden einer Zufallswiedergabe bieten. Mit Hilfe der unten beschriebenen Anleitung für die **Apple Kurzbefehle App**. 👇
 
 ## Ich will nur shufflen - nichts coden! 🚀
 
 Du musst nicht coden können, sondern darfst gerne meinen Server nutzen.  
-Dazu musst du nur den Shortcut aufsetzen und darin die von mir zur Verfügung gestellte URL einsetzen:  
+Dazu musst du nur den Shortcut aufsetzen und die `data.json` auf deinen Webhoster laden:  
 
-- `https://gag.trojanischeresel.de/data.json`
+- `https://meine.url.domain/data.json`
 
 Wie du den [Shortcut erstellst](#shortcut-erstellen) 👈
 
@@ -56,7 +54,7 @@ Bevor 1000 Wörter folgen, hier der Screenshots des Shortcuts:
 ![Screenshot des Shortcuts](./docs/screenshot.jpeg)
 
 1. Inhalte von URL abrufen  
-    ➡️ `https://gag.trojanischeresel.de/data.json` 
+    ➡️ `https://meine.url.domain/data.json`
     ➡️ oder deine eigene URL zur JSON Datei
 2. Objekt aus Liste abrufen  
     ➡️ "Zufälliges Objekt" von "Inhalt der URL"
@@ -137,22 +135,13 @@ Ohne Anspruch auf Vollständigkeit 🥸 aber in chronologischer Reihenfolge:
 - GAG383 - Bletchley Park [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000596383457)
 - GAG406 - Die SMS Wolf und die Piraten des Kaisers [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000619254302)
 - GAG413 - Paracelsus – Arzt und Alchemist [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000625306816)
+- GAG433 - Der Schinderhannes [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000641037112)
+- GAG434 - Ein willkommener Mörder [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000641895496)
+- GAG473 - Die Erfindung der Lochkarte [zur Folge](https://podcasts.apple.com/de/podcast/geschichten-aus-der-geschichte/id1044844618?i=1000673214924)
 
 </details>
 
 ## FAQ
-
-### Wenn alles über deinen Server läuft, dann DSGVO und so, oder?
-
-Na, aber, aber, ich bitte dich. 
-
-Ich will weder von dir irgendwelche Daten haben, noch gebe ich meine Daten gerne her.  
-Also speichere ich selbst aktiv keine Daten/IPs und Cookies bekommst du von mir auch keine!  
-Das hast du davon!
-
-### Kann ich mitmachen?
-
-Klar, gerne. Schau dir die [Contributions](#contributions--mitmachen) an.
 
 ### Kann ich dir einen Kaffee spendieren?
 
@@ -165,7 +154,7 @@ Wenn du selbst keine Ideen hast, hier ein paar Vorschläge:
 - https://letsencrypt.org
 - https://www.mozilla.org
 
-# Test
+# Code Testing
 
 Ein paar kleine, erste Tests gibt es nun auch.
 
