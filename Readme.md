@@ -26,9 +26,8 @@ Beim Zubettgehen und/oder Einschlafen läuft eine Folge "[Geschichten aus der Ge
 
 Dieses Repository soll anderen Podcast-Hörern, die iPhones nutzen, die Freuden einer Zufallswiedergabe bieten. Mit Hilfe der unten beschriebenen Anleitung für die **Apple Kurzbefehle App**. 👇
 
-## Ich will nur shufflen - nichts coden! 🚀
+## Ich will nur shufflen! 🚀
 
-Du musst nicht coden können, sondern darfst gerne meinen Server nutzen.  
 Dazu musst du nur den Shortcut aufsetzen und die `data.json` auf deinen Webhoster laden:  
 
 - `https://meine.url.domain/data.json`
