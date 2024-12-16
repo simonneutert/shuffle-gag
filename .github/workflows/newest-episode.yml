@@ -64,7 +64,7 @@ jobs:
       - name: Join newest episodes
         run: |
           bb -f src/join_episodes.clj
-          tail data.json
+          head data.json
 
       # Commit and push all changed files.
       - name: GIT Commit Add Episode
