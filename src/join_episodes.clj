@@ -44,6 +44,6 @@
 
 (if (valid-episode?)
   (let [all-episodes (conj all-json (merge newest-apple-podcasts-episode-json newest-spotify-episode-json))]
-    (spit "data.json" (json/generate-string all-episodes {:pretty true})))
+    (spit "data.json" (json/generate-string (reverse all-episodes) {:pretty true})))
   (throw (ex-info "Tags don't match" {:tag-apple-podcasts (:tag newest-apple-podcasts-episode-json)
                                       :tag-spotify (:tag newest-spotify-episode-json)})))
