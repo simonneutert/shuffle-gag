@@ -46,7 +46,7 @@ jobs:
       - name: Setup Babashka
         uses: turtlequeue/setup-babashka@master
         with:
-          babashka-version: 1.12.196
+          babashka-version: 1.12.213
 
       - name: Get newest episode from Apple Podcasts
         run: |
