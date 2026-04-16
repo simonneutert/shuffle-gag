@@ -55,7 +55,7 @@ Bevor 1000 Wörter folgen, hier der Screenshots des Shortcuts:
 4. Objekt aus Liste abrufen  
     ➡️ "Zufälliges Objekt" von "Wörterbuch"
 5. Wörterbuchwert abrufen  
-    ➡️ "Wert" für `url_apple_podcasts` bzw. `url_spotify` in "Objekt aus Liste" abrufen
+    ➡️ "Wert" für `url_apple_podcasts` (bzw. `url_spotify` - nicht mehr gültig) in "Objekt aus Liste" abrufen
 6. URL öffnen  
     ➡️ "Wörterbuchwert" öffnen
 
@@ -70,7 +70,8 @@ Mach das am besten an deinem iPhone wegen der "Übergabefunktion" in der Shortcu
 
 ### Automatisierte Ergänzung<!-- omit in toc -->
 
-Automatisiert werden automatisch die neuesten Episoden aus dem iTunes Store und Spotify gezogen und in die `newest-episode-apple-podcasts.json` bzw. `newest-episode-spotify.json` geschrieben. Abschließend wird die `data.json` aktualisiert.
+Automatisiert werden automatisch die Links zu den neuesten Episoden aus dem iTunes Store (und bis 16.04.2026 von Spotify) in die `newest-episode-apple-podcasts.json` (und bis 16.04.2026 `newest-episode-spotify.json`) geschrieben.\
+Abschließend wird die `data.json` aktualisiert.
 
 ## Contributions / Mitmachen
 
