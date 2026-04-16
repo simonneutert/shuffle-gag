@@ -10,6 +10,11 @@ Buch das Abo, die Jungs machen einen tollen Job! 💰
 
 ---
 
+Mit der Änderung der Spotify API endet die Spotify-Unterstützung in diesem Projekt (vorerst?). 😢  
+Der letzte Podcast mit Spotify-URL: GAG550 - Akbar und die Entstehung des Mogulreichs
+
+---
+
 ## Was ist das hier?
 
 1. eine einfache Liste aller Episoden im JSON Format (inkl. Bonus-Episoden und FGAGs)

@@ -42,8 +42,14 @@
     (and (tags-match?)
          (episode-unique? new-episode))))
 
-(if (valid-episode?)
-  (let [all-episodes (cons (merge newest-apple-podcasts-episode-json newest-spotify-episode-json) all-json)]
-    (spit "data.json" (json/generate-string all-episodes {:pretty true})))
-  (throw (ex-info "Tags don't match" {:tag-apple-podcasts (:tag newest-apple-podcasts-episode-json)
-                                      :tag-spotify (:tag newest-spotify-episode-json)})))
+;; with Spotify support, we would check if the tags match and if the episode is unique before writing to data.json. If the tags don't match, we throw an error. If the episode is not unique, we also throw an error. Only if both checks pass, we write to data.json.
+;; (if (valid-episode?)
+;;   (let [all-episodes (cons (merge newest-apple-podcasts-episode-json newest-spotify-episode-json) all-json)]
+;;     (spit "data.json" (json/generate-string all-episodes {:pretty true})))
+;;   (throw (ex-info "Tags don't match" {:tag-apple-podcasts (:tag newest-apple-podcasts-episode-json)
+;;                                       :tag-spotify (:tag newest-spotify-episode-json)})))
+
+;; without Spotify support, we skip the tag-match check but still enforce uniqueness before writing to data.json.
+(if (episode-unique? newest-apple-podcasts-episode-json)
+  (let [all-episodes (cons newest-apple-podcasts-episode-json all-json)]
+    (spit "data.json" (json/generate-string all-episodes {:pretty true}))))

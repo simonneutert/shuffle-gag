@@ -53,13 +53,13 @@ jobs:
           bb -f src/get_episode_apple_podcasts.clj
           cat newest-episode-apple-podcasts.json
 
-      - name: Get newest episode from Spotify
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: |
-          bb -f src/get_episode_spotify.clj
-          cat newest-episode-spotify.json
+      # - name: Get newest episode from Spotify
+      #   env:
+      #     SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      #     SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+      #   run: |
+      #     bb -f src/get_episode_spotify.clj
+      #     cat newest-episode-spotify.json
 
       - name: Join newest episodes
         run: |
