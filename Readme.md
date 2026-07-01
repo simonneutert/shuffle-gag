@@ -4,7 +4,7 @@
 Du lernst weiter unten, wie du den Kurzbefehl auf deinen Geräten einrichtest.  
 
 Viel Spaß beim Hören der Episoden.  
-Buch das Abo, die Jungs machen einen tollen Job! 💰
+Buche dir ein Abo, die Jungs machen einen tollen Job!
 
 [Kurzbefehl App](https://apps.apple.com/de/app/kurzbefehle/id915249334)
 
