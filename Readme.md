@@ -138,7 +138,7 @@ Ohne Anspruch auf Vollständigkeit 🥸 aber in chronologischer Reihenfolge:
 
 ### Kann ich dir einen Kaffee spendieren?
 
-Ne, musst du nicht, aber wenn du Gutes tun willst, dann kannst du woanders etwas spenden.
+Nein, musst du nicht, aber wenn du Gutes tun willst, dann kannst du woanders etwas spenden.
 
 Wenn du selbst keine Ideen hast, hier ein paar Vorschläge:
 
