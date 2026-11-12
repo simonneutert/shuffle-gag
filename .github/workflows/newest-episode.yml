@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Clear cache
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           script: |
             console.log("About to clear")
