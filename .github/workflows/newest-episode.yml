@@ -42,7 +42,7 @@ jobs:
             }
             console.log("Clear completed")
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Setup Babashka
         uses: turtlequeue/setup-babashka@master
         with:
