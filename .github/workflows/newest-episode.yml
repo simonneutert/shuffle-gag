@@ -78,7 +78,7 @@ jobs:
           git push
 
       - name: Setup Docker buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
